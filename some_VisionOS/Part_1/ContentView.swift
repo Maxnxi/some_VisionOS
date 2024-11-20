@@ -9,7 +9,7 @@ import SwiftUI
 import RealityKit
 import RealityKitContent
 
-struct ContentView: View {
+struct ContentView1: View {
 	let timer = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
 	@State var degrees: Double = 0.0
 	
