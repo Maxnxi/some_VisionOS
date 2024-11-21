@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B79364002CEB3A7700B6B857 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = B79363FF2CEB3A7700B6B857 /* RealityKitContent */; };
+		B7EAFC442CEF863A00858E43 /* USDZScanner in Frameworks */ = {isa = PBXBuildFile; productRef = B7EAFC432CEF863A00858E43 /* USDZScanner */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B79364002CEB3A7700B6B857 /* RealityKitContent in Frameworks */,
+				B7EAFC442CEF863A00858E43 /* USDZScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +96,7 @@
 			name = some_VisionOS;
 			packageProductDependencies = (
 				B79363FF2CEB3A7700B6B857 /* RealityKitContent */,
+				B7EAFC432CEF863A00858E43 /* USDZScanner */,
 			);
 			productName = some_VisionOS;
 			productReference = B79363FA2CEB3A7700B6B857 /* some_VisionOS.app */;
@@ -123,6 +126,9 @@
 			);
 			mainGroup = B79363F12CEB3A7700B6B857;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B7EAFC422CEF863A00858E43 /* XCRemoteSwiftPackageReference "USDZScanner" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B79363FB2CEB3A7700B6B857 /* Products */;
 			projectDirPath = "";
@@ -348,10 +354,26 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		B7EAFC422CEF863A00858E43 /* XCRemoteSwiftPackageReference "USDZScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/USDZScanner.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		B79363FF2CEB3A7700B6B857 /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
+		};
+		B7EAFC432CEF863A00858E43 /* USDZScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7EAFC422CEF863A00858E43 /* XCRemoteSwiftPackageReference "USDZScanner" */;
+			productName = USDZScanner;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
