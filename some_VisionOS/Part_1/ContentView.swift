@@ -40,5 +40,5 @@ struct ContentView1: View {
 }
 
 #Preview(windowStyle: .automatic) {
-    ContentView()
+    ContentView1()
 }

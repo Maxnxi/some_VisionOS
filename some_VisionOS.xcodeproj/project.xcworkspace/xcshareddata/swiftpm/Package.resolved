@@ -1,0 +1,15 @@
+{
+  "originHash" : "1539590fb0963bf3e2db9cb06129d556044748008bcca4790306b504c36a230d",
+  "pins" : [
+    {
+      "identity" : "usdzscanner",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alfianlosari/USDZScanner.git",
+      "state" : {
+        "revision" : "d5da079adcf29e22acabc0f713bb9264e44c8938",
+        "version" : "0.2.0"
+      }
+    }
+  ],
+  "version" : 3
+}

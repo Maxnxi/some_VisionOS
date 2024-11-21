@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import _RealityKit_SwiftUI
 
 struct InventoryListItemView: View {
 	
